@@ -11,7 +11,7 @@
     "@types/node": "^22.13.13",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "ra-data-json-server": "^5.6.3",
+    "ra-data-json-server": "^5.6.4",
     "react": "^17.0.2",
     "react-admin": "^5.6.4",
     "react-dom": "^17.0.2",
