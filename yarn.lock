@@ -9119,10 +9119,10 @@ quick-lru@^5.1.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-ra-core@^5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.8.0.tgz#a86bdd9b8d42862c38c874d56ea45cc5238f942c"
-  integrity sha512-oxmasMu35hLTUzCAk05lsr2DbL9SE32uuRaQSPvxmmwCsn2N4BoB7HAqbj1qfvL3bCsdKjX1fOArXxsFjYxESA==
+ra-core@^5.8.0, ra-core@^5.8.3:
+  version "5.8.3"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.8.3.tgz#be68513840bfb43c1f6d20612350aaf1ec08598a"
+  integrity sha512-pMmZ9oQLh2cuZvRaYlJTnE2YVDSYuovINrzm9C2cbrPMajfwl/Eouq0bH+DmEo/oC8QI6SKVLkMTgqzaMa5IKw==
   dependencies:
     "@tanstack/react-query" "^5.21.7"
     clsx "^2.1.1"
@@ -9143,25 +9143,25 @@ ra-data-json-server@^5.8.0:
     query-string "^7.1.3"
     ra-core "^5.8.0"
 
-ra-i18n-polyglot@^5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-5.8.0.tgz#6fdeda33278f5968590c17046fd969e6e79a6c88"
-  integrity sha512-bHZap/ceYvMcYhrTzgp70CH8FCOMjlK/1AYojnaMy7R/0OmFUxrt3kmKSUhTEBD1t6jLM/HiJ/Wg/seH1NNiag==
+ra-i18n-polyglot@^5.8.3:
+  version "5.8.3"
+  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-5.8.3.tgz#666b3cbd76c0e24a2c86c0b46c98821b409aed10"
+  integrity sha512-euPOGDBnu4UK3Q9ZHTG2CwfZ3VNLT75b2357iDjz3UW1FTVwKacLhXUkghrTH/DSMLBH+zQqKun3SiWuVaCZgA==
   dependencies:
     node-polyglot "^2.2.2"
-    ra-core "^5.8.0"
+    ra-core "^5.8.3"
 
-ra-language-english@^5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-5.8.0.tgz#2b931ae6cbf0d4b8930737f74e6b8374e5892862"
-  integrity sha512-Wx04SDNK0rxZUbyIW13ExUcqtd4S44wShhVWe89b3KWjztxZ9HAQ+Ovb0m55rZqxhNHe/R6qa+8grmAEisR6CA==
+ra-language-english@^5.8.3:
+  version "5.8.3"
+  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-5.8.3.tgz#0afc7e50e3c92716287dd75149e14dc877cca32a"
+  integrity sha512-G9qQaiqbgs0jqvWQEPoazHRadacYvX0AN8uxZiZvvNo/RINQ1UCV75eXShrr1c7Wn4ldILqwXJqXjUGxldeDCw==
   dependencies:
-    ra-core "^5.8.0"
+    ra-core "^5.8.3"
 
-ra-ui-materialui@^5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-5.8.0.tgz#a1b38c12d7972c0666d11b1c0a0d642a34b8502d"
-  integrity sha512-P1wbtdCF/RV43s90O1EnrPFF0IQqncz95oXOMNNx/5Pqod9pAuvImJVd7ah1eHv3AddIZ+dSzY1ETqevCUJicA==
+ra-ui-materialui@^5.8.3:
+  version "5.8.3"
+  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-5.8.3.tgz#221905c8712d2f005d9ff12a35d19a6fcf29a759"
+  integrity sha512-iIxPdeTKRI4LJJtEjOrHQYJDs0ocldqfSNHA+jolAb5Uqmx+4n4WLy6VWxHHqlrNO8XB6HNFbL+avHWqBuw4NQ==
   dependencies:
     "@tanstack/react-query" "^5.21.7"
     autosuggest-highlight "^3.1.1"
@@ -9205,19 +9205,19 @@ raw-body@2.5.2:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-admin@^5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-5.8.0.tgz#ef525658b928701551f4b452f20db28a922f25a8"
-  integrity sha512-CIfrbqofjkkLnLbyNK5nUbqgSRBTgm2IIEBBv+3oS1wSp/koPPx4i9mFd7zdDFu5uVjzjA5CR2wR2FKaXzdRGw==
+react-admin@^5.8.3:
+  version "5.8.3"
+  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-5.8.3.tgz#3278c5aead1e61a56d5584ab8f1d086f8dce3d5f"
+  integrity sha512-zSA9HPHAXYDlcoAvJSDLwUIRaYgeDKh1+hwkpIW8h4/FzcNNztz7w454LSG7/wd0yajAwlsvMKnOkE2U+9bQKw==
   dependencies:
     "@emotion/react" "^11.14.0"
     "@emotion/styled" "^11.14.0"
     "@mui/icons-material" "^5.16.12 || ^6.0.0 || ^7.0.0"
     "@mui/material" "^5.16.12 || ^6.0.0 || ^7.0.0"
-    ra-core "^5.8.0"
-    ra-i18n-polyglot "^5.8.0"
-    ra-language-english "^5.8.0"
-    ra-ui-materialui "^5.8.0"
+    ra-core "^5.8.3"
+    ra-i18n-polyglot "^5.8.3"
+    ra-language-english "^5.8.3"
+    ra-ui-materialui "^5.8.3"
     react-hook-form "^7.53.0"
     react-router "^6.28.1 || ^7.1.1"
     react-router-dom "^6.28.1 || ^7.1.1"
