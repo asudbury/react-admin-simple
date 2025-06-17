@@ -9119,10 +9119,10 @@ quick-lru@^5.1.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-ra-core@^5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.8.0.tgz#a86bdd9b8d42862c38c874d56ea45cc5238f942c"
-  integrity sha512-oxmasMu35hLTUzCAk05lsr2DbL9SE32uuRaQSPvxmmwCsn2N4BoB7HAqbj1qfvL3bCsdKjX1fOArXxsFjYxESA==
+ra-core@^5.8.0, ra-core@^5.8.4:
+  version "5.8.4"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-5.8.4.tgz#1790ca083ed488da63f2f5c973412145dff8eae0"
+  integrity sha512-UdlhZj9oeGGQDt1dtpDSZ51dXHmZgtooQuhSALLpuCk57Pm/frkF0/JEFIudZGA+2MqVIGAXxaCXNLgeo+d7ZQ==
   dependencies:
     "@tanstack/react-query" "^5.21.7"
     clsx "^2.1.1"
@@ -9135,13 +9135,13 @@ ra-core@^5.8.0:
     react-error-boundary "^4.0.13"
     react-is "^18.2.0 || ^19.0.0"
 
-ra-data-json-server@^5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/ra-data-json-server/-/ra-data-json-server-5.8.0.tgz#b852833284171bddcd8a58858ab5536ec1a3fb4a"
-  integrity sha512-/N/0e7cntC/IX89dPhe6e0CTGx5MK3BnqWbTJHzX8TpZ/7OsCf7x/rWrMbnvYEcyzgQvrSwm1s58Qs6iyvBa3Q==
+ra-data-json-server@^5.8.4:
+  version "5.8.4"
+  resolved "https://registry.yarnpkg.com/ra-data-json-server/-/ra-data-json-server-5.8.4.tgz#4e4cd87953efab2f2af12b11bf960dec4e5fb485"
+  integrity sha512-MDlsdaeHgTXBF39nvwGzFBKMLKJMidnZ5HIUE/rmRvuruczb731vaX17A83FhSb+gNWsTc8mV6KfMkHS2VfEKw==
   dependencies:
     query-string "^7.1.3"
-    ra-core "^5.8.0"
+    ra-core "^5.8.4"
 
 ra-i18n-polyglot@^5.8.0:
   version "5.8.0"
